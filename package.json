@@ -1,10 +1,10 @@
 {
-    "name": "php-namespace-resolver",
-    "displayName": "PHP Namespace Resolver",
+    "name": "php-namespace-resolver-fork",
+    "displayName": "PHP Namespace Resolver (Fork)",
     "description": "Import and expand php namespaces",
-    "version": "1.1.9",
-    "publisher": "MehediDracula",
-    "author": "Mehedi Hassan <MehediDracula@gmail.com>",
+    "version": "1.1.10",
+    "publisher": "kyteinsky",
+    "author": "Anupam Kumar <kyteinsky@gmail.com>",
     "license": "SEE LICENSE IN LICENSE",
     "engines": {
         "vscode": "^1.68.0"
@@ -208,10 +208,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/MehediDracula/PHP-Namespace-Resolver"
+        "url": "https://github.com/kyteinsky/PHP-Namespace-Resolver"
     },
     "bugs": {
-        "url": "https://github.com/MehediDracula/PHP-Namespace-Resolver/issues"
+        "url": "https://github.com/kyteinsky/PHP-Namespace-Resolver/issues"
     },
     "dependencies": {
         "node-natural-sort": "^0.8.6"
