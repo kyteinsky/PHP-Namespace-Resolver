@@ -2,7 +2,7 @@
     "name": "php-namespace-resolver-fork",
     "displayName": "PHP Namespace Resolver (Fork)",
     "description": "Import and expand php namespaces",
-    "version": "1.1.11",
+    "version": "1.1.13",
     "publisher": "kyteinsky",
     "author": "Anupam Kumar <kyteinsky@gmail.com>",
     "license": "SEE LICENSE IN LICENSE",

@@ -119,5 +119,5 @@ You can override these default keybindings on your `keybindings.json`.
 
 [MIT](LICENSE) License.
 
-Copyright (c) 2017 Mehedi Hassan
+Copyright (c) 2017 Mehedi Hassan<br>
 Copyright (c) 2023 Anupam Kumar
