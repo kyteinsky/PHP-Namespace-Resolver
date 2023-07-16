@@ -353,16 +353,6 @@ class Resolver {
         this.activeEditor().selection = new vscode.Selection(newPosition, newPosition);
     }
 
-    sortCommand() {
-        try {
-            this.sortImports();
-        } catch (error) {
-            return this.showErrorMessage(error.message);
-        }
-
-        this.showMessage('$(check)  Imports are sorted.');
-    }
-
     findFiles(resolving) {
         return vscode.workspace.findFiles(`**/${resolving}.php`, this.config('exclude'));
     }

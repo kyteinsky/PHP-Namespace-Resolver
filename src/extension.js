@@ -25,7 +25,7 @@ function activate(context) {
     );
 
     context.subscriptions.push(
-        vscode.commands.registerCommand('namespaceResolver.sort', () => resolver.sortCommand())
+        vscode.commands.registerCommand('namespaceResolver.sort', () => resolver.sortImports())
     );
 
     context.subscriptions.push(
@@ -50,7 +50,7 @@ function activate(context) {
             event.document.languageId === 'php' &&
             vscode.workspace.getConfiguration('namespaceResolver').get('sortOnSave')
         ) {
-            resolver.sortCommand();
+            resolver.sortImports();
         }
 
         if (

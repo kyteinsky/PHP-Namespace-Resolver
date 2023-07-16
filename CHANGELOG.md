@@ -1,6 +1,13 @@
 # Change Log
 All notable changes to the "php-namespace-resolver" extension will be documented in this file.
 
+## [1.1.11] - 2023-07-16
+### Fixed
+- No blocks of imports sorted if the first block had one line of import
+### Changed
+- Do not display messages to user regarding sort results
+- package.json cleanup
+
 ## [1.1.10] - 2023-07-16
 ### Added
 - Option to sort individual blocks of imports separately

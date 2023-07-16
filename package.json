@@ -2,7 +2,7 @@
     "name": "php-namespace-resolver-fork",
     "displayName": "PHP Namespace Resolver (Fork)",
     "description": "Import and expand php namespaces",
-    "version": "1.1.10",
+    "version": "1.1.11",
     "publisher": "kyteinsky",
     "author": "Anupam Kumar <kyteinsky@gmail.com>",
     "license": "SEE LICENSE IN LICENSE",
@@ -24,14 +24,7 @@
         "theme": "dark"
     },
     "activationEvents": [
-        "onLanguage:php",
-        "onCommand:namespaceResolver.import",
-        "onCommand:namespaceResolver.importAll",
-        "onCommand:namespaceResolver.expand",
-        "onCommand:namespaceResolver.sort",
-        "onCommand:namespaceResolver.highlightNotImported",
-        "onCommand:namespaceResolver.highlightNotUsed",
-        "onCommand:namespaceResolver.generateNamespace"
+        "onLanguage:php"
     ],
     "main": "./src/extension",
     "icon": "images/icon.png",
